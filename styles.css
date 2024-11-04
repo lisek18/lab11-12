@@ -1,0 +1,44 @@
+
+#notatka {
+    background-color: red;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+}
+
+
+.hobby-list {
+    list-style-type: upper-roman;
+}
+
+
+.oceny-tabela {
+    width: 50%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.oceny-tabela th, .oceny-tabela td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.oceny-tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.oceny-tabela tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+
+.submit-btn {
+    background-color: #0066ff;
+    border: 2px solid black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
