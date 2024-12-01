@@ -3,16 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Prosta Strona</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1 style="color: white; background-color: #333; text-align: center; padding: 10px;">Witaj na Mojej Prostej Stronie!</h1>
+    </header>
 
-    <h1>Witamy na naszej stronie!</h1>
-    <p>Wybierz to co cię interesuje</p>
+    <p>Polsko-Japońska Akademia Technik Komputerowych w Warszawie od lat kształci specjalistów w obszarze informatyki, zarządzania informacją, kultury Japonii, architektury wnętrz oraz projektowania graficznego.</p>
 
-    <ul>
-        <li><a href="lab11.html" target="_blank">lab11</a></li>
-        <li><a href="lab12.html" target="_blank">lab12</a></li>
-    </ul>
+    <p>PJATK jest najlepszą prywatną uczelnią o profilu informatycznym w Polsce, co potwierdzają prestiżowe rankingi oraz zadowoleni absolwenci.</p>
 
+    <div id="o-mnie">
+   Cześć! Nazywam Oliwia Laskowska<br>
+         Jestem studentem informatyki, interesuję się nowymi jazdą konną i programowaniem. <br>
+         Lubię spędzać czas na nauce języków programowania oraz poznawaniu nowych narzędzi do tworzenia aplikacji internetowych.</p>
+
+</div>
+<br>
+<img src="kon.jpeg" alt="Przykładowy obrazek" />
+
+    <h2>Lista moich ulubionych rzeczy:</h2>
+    <ol class="lista">
+        <li>Konie</li>
+        <li>Muzyka</li>
+        <li>Podróże</li>
+    </ol>
+
+    <h2>Oceny z przedmiotów:</h2>
+    <table id="oceny">
+        <tr>
+            <th>Przedmiot</th>
+            <th>Ocena</th>
+        </tr>
+        <tr>
+            <td>Informatyka</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Matematyka</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Język angielski</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+    <h2>Kontakt</h2>
+    <form action="#" method="post">
+        <label for="name">Imię:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Adres e-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="Wyślij" class="submit-button">
+    </form>
 </body>
 </html>
