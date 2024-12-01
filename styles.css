@@ -1,44 +1,67 @@
 
-#notatka {
+body {
+    background-color: #808080; 
+    font-family: Arial, sans-serif;
+}
+
+
+#o-mnie {
     background-color: red;
     font-weight: bold;
     font-style: italic;
     margin-left: 2px;
     padding-bottom: 2px;
     text-align: left;
+    color: white;
+
 }
 
 
-.hobby-list {
-    list-style-type: upper-roman;
-}
 
-
-.oceny-tabela {
+#oceny {
     width: 50%;
     border-collapse: collapse;
-    border: 2px solid black;
+    margin: 20px 0;
 }
 
-.oceny-tabela th, .oceny-tabela td {
+#oceny th, #oceny td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
 }
 
-.oceny-tabela tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
 
-.oceny-tabela tr:nth-child(odd) {
-    background-color: #ffffff;
-}
-
-
-.submit-btn {
-    background-color: #0066ff;
-    border: 2px solid black;
+#oceny tr:first-child {
+    background-color: #4CAF50; 
     color: white;
-    padding: 10px 20px;
+}
+
+#oceny tr:nth-child(2) {
+    background-color: #FFDD57; 
+}
+
+#oceny tr:nth-child(3) {
+    background-color: #FFA07A;
+}
+
+#oceny tr:nth-child(4) {
+    background-color: #87CEEB; 
+}
+
+
+
+.lista {
+    list-style-type: upper-roman;
+}
+
+.button {
+    background-color: #0066ff;
+    border: 2px solid #0047b3;
+    color: white;
+    padding: 10px 15px;
     cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0047b3;
 }
